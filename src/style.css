@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card{
+    @apply bg-white rounded overflow-hidden relative
+}
+
+.badge{
+    @apply absolute top-0 mt-3 ml-3 p-1 rounded-full text-secondary-200 bg-secondary-100 text-xs
+}
+
+.button{
+    @apply text-primary rounded-full py-1 px-3 cursor-pointer
+}
+
+.border-transparent{
+    border-color: transparent;
+}
+
+/* .hidden{
+    display: none;
+} */
