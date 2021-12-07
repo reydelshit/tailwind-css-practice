@@ -1,5 +1,10 @@
 module.exports = {
-  purge: ['public/*.html'],
+  mode: 'jit',
+  purge: [
+    './public/index.html',
+    './src/style.css',
+    './public/script.js'
+],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
